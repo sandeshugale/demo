@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/layout_tags_type_post_arious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+       >
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+         <!--   <com.wefika.flowlayout.FlowLayout
+                android:id="@+id/layout_add_tags_qrious"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:background="@android:color/black">
+            </com.wefika.flowlayout.FlowLayout>-->
+            <LinearLayout
+                android:id="@+id/layout_add_tags_qrious"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"></LinearLayout>
+        </HorizontalScrollView>
+
+        <!--<com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/layout_add_tags_qrious"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flexWrap="wrap">
+
+            &lt;!&ndash; contents go here &ndash;&gt;
+
+        </com.google.android.flexbox.FlexboxLayout>-->
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edt_tags_qrious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:hint="Type tag and press enter or ok"
+        android:inputType="text"
+        android:singleLine="true"
+        android:visibility="visible" />
+
+</LinearLayout>
